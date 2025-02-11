@@ -20,7 +20,7 @@ app.use("/api/auth", authRoutes);
 // app.use("/api/kyc", kycRoutes); // KYC-specific routes
 
 app.get('/', (req, res) => {
-  res.send('GET request to the homepage')
+  res.send("Hello World")
 })
 // START THE SERVER
 const PORT = process.env.PORT || 5000;
