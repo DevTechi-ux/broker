@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // Define the API URL for your backend
-const API_URL = 'http://localhost:8000/api/auth';  
+const API_URL = 'https://broker-jet.vercel.app/api/auth';  
 
 // Register a new user
 export const registerUser = async (userData) => {
